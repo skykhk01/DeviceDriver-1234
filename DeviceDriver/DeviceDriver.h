@@ -10,4 +10,6 @@ public:
 
 protected:
     FlashMemoryDevice* m_hardware;
+    const int TOTAL_READ_COUNT = 5;
+    const int READ_INTERVAL = 200;
 };
