@@ -36,3 +36,13 @@ TEST(DeviceDriver, ReadFailException)
 	DeviceDriver device_driver(&mock_device);
 	EXPECT_THROW(device_driver.read(0x1), std::exception);
 }
+
+TEST(DeviceDriver, ReadSuccess)
+{
+	MockDevice mock_device;
+	EXPECT_CALL(mock_device, read(_))
+		.WillRepeatedly(Return(0x1));
+
+	DeviceDriver device_driver(&mock_device);
+	device_driver.read(0x0);
+}
