@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceDriver", "DeviceDriver\DeviceDriver.vcxproj", "{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample-Test1", "Sample-Test1\Sample-Test1.vcxproj", "{8842BF9D-8A66-447C-B1FE-D6385FA38D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{3980449D-D429-429C-87DD-994E1020C491}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Debug|x64.ActiveCfg = Debug|x64
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Debug|x64.Build.0 = Debug|x64
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Debug|x86.Build.0 = Debug|Win32
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Release|x64.ActiveCfg = Release|x64
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Release|x64.Build.0 = Release|x64
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Release|x86.ActiveCfg = Release|Win32
+		{AEB4EAC2-91FF-42BC-99C2-1BBD38F55E0C}.Release|x86.Build.0 = Release|Win32
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Debug|x64.ActiveCfg = Debug|x64
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Debug|x64.Build.0 = Debug|x64
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Debug|x86.ActiveCfg = Debug|Win32
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Debug|x86.Build.0 = Debug|Win32
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Release|x64.ActiveCfg = Release|x64
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Release|x64.Build.0 = Release|x64
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Release|x86.ActiveCfg = Release|Win32
+		{8842BF9D-8A66-447C-B1FE-D6385FA38D08}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87891076-7E3C-4531-ADAE-7B75342006DE}
+	EndGlobalSection
+EndGlobal
